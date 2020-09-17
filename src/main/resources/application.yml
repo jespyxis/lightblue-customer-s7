@@ -4,9 +4,9 @@ server:
 
 spring:
   cloudant:
-    username: ${vcap.services.lightblue-cloudant-s7.credentials.username}
-    password: ${vcap.services.lightblue-cloudant-s7.credentials.password}
-    host: ${vcap.services.lightblue-cloudant-s7.credentials.host}
+    username: ${vcap.services.Cloudant-s7.credentials.username}
+    password: ${vcap.services.Cloudant-s7.credentials.password}
+    host: ${vcap.services.Cloudant-s7.credentials.host}
     protocol: https
     port: 443
     database: customers
